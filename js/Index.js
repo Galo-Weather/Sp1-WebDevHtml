@@ -33,3 +33,21 @@ function selectCidades() {
     }
   }
   
+
+function galoWeather(event) {
+  event.preventDefault();
+  var c1 = document.getElementById("cidades");
+  var CS = c1.options[c1.selectedIndex].value;
+  var PS = document.getElementById("precipitacao").value;
+  var resultado = document.getElementById("resultado");
+
+  if (CS === "op1") {
+    if (PS > 10) {
+      resultado.innerHTML = "Vai alagar na Mocca, principalmente no centro e extremidades.";
+    }else if(PS > 5 && PS <= 10){
+        resultado.innerHTML = "Nao vai alagar na Mocca, mas algum lugares podem enfrentar transito"
+      } else {
+      resultado.innerHTML = "Não vai alagar na Mocca";
+    }
+  } 
+}
