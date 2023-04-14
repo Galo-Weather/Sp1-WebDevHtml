@@ -49,5 +49,13 @@ function galoWeather(event) {
       } else {
       resultado.innerHTML = "Não vai alagar na Mocca";
     }
-  } 
+  } else if (CS === "op2") {
+    if (PS > 15) {
+      resultado.innerHTML = "Vai alagar na Vila Prudente, areas residenciais podem ser prejudicadas.";
+    }else if(PS > 10 && PS <= 15){
+      resultado.innerHTML = "Nao vai alagar na Vila Prudente, mas algumas casas podem ser prejudicadas com muita agua"
+    } else {
+      resultado.innerHTML = "Não vai alagar na Vila Prudente";
+    } 
+  }
 }
