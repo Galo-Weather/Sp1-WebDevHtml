@@ -24,6 +24,10 @@ function selectCidades() {
       capacidade.innerHTML = "Capacidade: 10mm de chuva";
     } else if (CS == "op2") {
       capacidade.innerHTML = "Capacidade: 15mm";
+    } else if (CS == "op3") {
+        capacidade.innerHTML = "Capacidade: 20mm";
+      } else if (CS == "op4") {
+        capacidade.innerHTML = "Capacidade: 30mm";
     } else {
       capacidade.innerHTML = "Capacidade:";
     }
