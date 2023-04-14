@@ -57,5 +57,21 @@ function galoWeather(event) {
     } else {
       resultado.innerHTML = "Não vai alagar na Vila Prudente";
     } 
+} else if (CS === "op3") { // pessoa 4 deve adicionar até op4
+    if (PS > 20) {
+      resultado.innerHTML = "Vai alagar no Tatuapé, Avenidas principais ficaram obstruidas.";
+    }else if(PS > 10 && PS <= 20){
+      resultado.innerHTML = "Nao vai alagar no Tatuapé, mas algum lugares podem ter problemas com transito"
+    } else {
+    resultado.innerHTML = "Não vai alagar no Tatuapé";
+    }
+  } else if (CS === "op4") {
+    if (PS > 30) {
+      resultado.innerHTML = "Vai alagar em Belenzinho, areas residenciais podem ser prejudicadas";
+    }else if(PS > 15 && PS <= 30){
+      resultado.innerHTML = "Nao vai alagar em Belenzinho, mas algumas casas podem enfrentar perda de energia."
+    } else {
+      resultado.innerHTML = "Não vai alagar em Belenzinho";
+    }
   }
-}
+} //pessoa 4 vai adicionar até aki
