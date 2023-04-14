@@ -14,3 +14,18 @@ function validacao(event) {
     precipitacao.removeAttribute("disabled");
   }
 }
+
+function selectCidades() {
+    var c1 = document.getElementById("cidades");
+    var capacidade = document.getElementById("capacidade");
+    var CS = c1.options[c1.selectedIndex].value;
+  
+    if (CS == "op1") {
+      capacidade.innerHTML = "Capacidade: 10mm de chuva";
+    } else if (CS == "op2") {
+      capacidade.innerHTML = "Capacidade: 15mm";
+    } else {
+      capacidade.innerHTML = "Capacidade:";
+    }
+  }
+  
