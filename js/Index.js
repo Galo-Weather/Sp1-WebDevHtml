@@ -3,6 +3,7 @@ var cidades = document.getElementById("cidades");
 var precipitacao = document.getElementById("precipitacao"); 
 
 function validacao(event) { 
+    event.preventDefault();
   var email = document.getElementById("email").value;
   var senha = document.getElementById("senha").value;
 
