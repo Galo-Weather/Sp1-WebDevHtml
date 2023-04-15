@@ -1,4 +1,4 @@
-## Desenvolvimento e Entrega do Checkpoint 1 - Edge Computing and Computer Systems :rooster:
+## Desenvolvimento e Entrega da 1ª Sprint do Challenge 2023 - Web Development with JavaScript :rooster:
 
 **Nomes + RM dos integrantes:**
 - Guilherme Akio - 98582
