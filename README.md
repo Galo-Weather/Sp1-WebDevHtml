@@ -25,7 +25,7 @@ Era esperado que fÔssemos capazes de printar mensagens no console, receber inpu
 ### Desenvolvimento do projeto
 Aproveitamos a mesma página de HTML desenvolvida para a entrega de Front-End na 1ª sprint, de modo que tivéssemos um trabalho mais completo, utilizando elementos das duas disciplinas em um melhor resultado.
 
-Em relação à parte de JavaScript do projeto,  criamos campos para inserção de informações por parte do usuário (login, senha e pluviosidade), e também a seleção de opções pré-estabelecidas em sistemas (bairros), retornando em seguida uma informação também pre-determinada após um teste lógigo (a respeito da probabilidade de alagamento na região).
+Em relação à parte de JavaScript do projeto,  criamos campos para inserção de informações por parte do usuário (login, senha e pluviosidade), e também a seleção de opções pré-estabelecidas em sistemas (bairros), retornando em seguida uma informação também pre-determinada após um teste lógigo (a respeito da probabilidade de alagamento na região), e tambem gera respostas dentro do console
 
 Este teste é apenas um protótipo do calculo final que será realizado pelo software que estamos desenvolvendo, de modo a já conseguirmos ilustrar a funcionalidade do projeto em estágios finais.
 
